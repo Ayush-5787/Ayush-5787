@@ -1,16 +1,22 @@
-## Hi there 👋
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--        AYUSH'S CONTROL ROOM — CUSTOM BUILT, NO TEMPLATES   -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
-<!--
-**Ayush-5787/Ayush-5787** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<!-- CUSTOM CINEMATIC BANNER with animated grid + glowing name -->
+<a href="https://github.com/Ayush-5787">
+  <img src="https://raw.githubusercontent.com/Ayush-5787/Ayush-5787/main/assets/banner.svg" width="100%" alt="Ayush — Control Room" />
+</a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+<!-- ═══════════════ LIVE STATUS BAR ═══════════════ -->
+<div align="center">
+
+```yaml
+┌─────────────────────────────────────────────────────────────────┐
+│  🟢 STATUS: ONLINE         ⚡ MODE: DEEP WORK                   │
+│  📍 LOCATION: India        🕐 LOCAL TIME: (auto via badge)      │
+│  🎯 MISSION: Ship intelligent systems that think               │
+└─────────────────────────────────────────────────────────────────┘

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00cc66" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00cc66" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="#000000"/>
+  <text x="600" y="35" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#00ff88" letter-spacing="3">&#47;&#47; THE FLOW OF CREATION</text>
+  <path fill="none" stroke="url(#wave1)" stroke-width="2">
+    <animate attributeName="d"
+      values="M 0 120 Q 150 80 300 120 T 600 120 T 900 120 T 1200 120;M 0 120 Q 150 160 300 120 T 600 120 T 900 120 T 1200 120;M 0 120 Q 150 80 300 120 T 600 120 T 900 120 T 1200 120"
+      dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path fill="none" stroke="url(#wave2)" stroke-width="2">
+    <animate attributeName="d"
+      values="M 0 140 Q 200 100 400 140 T 800 140 T 1200 140;M 0 140 Q 200 180 400 140 T 800 140 T 1200 140;M 0 140 Q 200 100 400 140 T 800 140 T 1200 140"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+  <text x="600" y="185" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#666666" letter-spacing="2">[ EVERY COMMIT IS A WAVE IN THE OCEAN OF CODE ]</text>
+</svg>
