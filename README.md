@@ -1,61 +1,62 @@
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--              AYUSH · DEVELOPER PORTFOLIO · ULTIMATE EDITION         -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<table>
+<tr>
+<td width="30%" valign="top" align="center">
 
-<div align="center">
+<img src="https://github.com/Ayush-5787.png" width="180" style="border-radius: 50%; border: 3px solid #00ff88;" alt="Ayush" />
 
-<a href="https://github.com/Ayush-5787">
-  <img src="https://raw.githubusercontent.com/Ayush-5787/Ayush-5787/main/assets/banner.svg" width="100%" alt="Ayush — Banner" />
-</a>
+### **Ayush**
+
+**AI & Full-Stack Dev**
+
+<img src="https://img.shields.io/badge/📍_Kanpur,_India-00ff88?style=flat-square&labelColor=000000" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/🟢_STATUS-ONLINE-00ff88?style=for-the-badge&labelColor=000000" />
-<img src="https://img.shields.io/badge/🎓_BTECH_CSE-3rd_Year-00ff88?style=for-the-badge&labelColor=000000" />
-<img src="https://img.shields.io/badge/🚀_BUILDING-Multi--Agent_System-00ff88?style=for-the-badge&labelColor=000000" />
-<img src="https://img.shields.io/badge/📍_KANPUR-India-00ff88?style=for-the-badge&labelColor=000000" />
+**🔗 QUICK LINKS**
 
-</div>
+<a href="#-flagship-project">🚀 Flagship</a><br>
+<a href="#-other-builds">🛠️ Projects</a><br>
+<a href="#-skill-map">🎯 Skills</a><br>
+<a href="#-education">🎓 Education</a><br>
+<a href="#-lets-connect">🔗 Connect</a>
 
----
+<br><br>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                          HOLOGRAPHIC ID                            -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+**📊 STATS**
 
-<div align="center">
+<img src="https://img.shields.io/badge/Repos-5+-00ff88?style=flat-square&labelColor=000000" /><br>
+<img src="https://img.shields.io/badge/Focus-AI_%2F_Agents-00ff88?style=flat-square&labelColor=000000" />
 
-<img src="https://raw.githubusercontent.com/Ayush-5787/Ayush-5787/main/assets/id-card.svg" width="700" alt="Ayush — ID Card" />
+<br><br>
 
-</div>
+**🌐 SOCIAL**
 
----
+<a href="https://github.com/Ayush-5787"><img src="https://img.shields.io/badge/GitHub-00ff88?style=for-the-badge&logo=github&logoColor=000000&labelColor=000000" /></a><br>
+<a href="mailto:YOUR_EMAIL_HERE"><img src="https://img.shields.io/badge/Email-00ff88?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=000000" /></a><br>
+<a href="https://linkedin.com/in/YOUR_HANDLE_HERE"><img src="https://img.shields.io/badge/LinkedIn-00ff88?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=000000" /></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                          INTRO                                     -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<h2 align="center">Hey, I'm <span style="color:#00ff88;">Ayush</span> 👋</h2>
-
-<h3 align="center">AI Engineer · Full-Stack Developer · Builder of Intelligent Systems</h3>
+</td>
+<td width="70%" valign="top">
 
 <div align="center">
 
-I'm a **3rd-year B.Tech CSE student** at **Pranveer Singh Institute of Technology, Kanpur** — turning curiosity into code and ideas into products that actually ship.
-
-My obsession? **Agentic AI.** Teaching machines to reason, critique, and self-correct the way humans do. Not just prompting LLMs — **engineering systems that think.**
+<img src="https://raw.githubusercontent.com/Ayush-5787/Ayush-5787/main/assets/banner.svg" width="100%" alt="Ayush" />
 
 </div>
 
 <br>
 
+## 👋 **Howdy!**
+
+I'm **Ayush** — an **AI & Full-Stack Developer** and a **3rd-year B.Tech CSE student** at **Pranveer Singh Institute of Technology, Kanpur**.
+
+I build at the intersection of **AI, full-stack engineering, and product design**. My current obsession: **agentic AI systems** — teaching machines to reason, critique, and self-correct.
+
 ```typescript
 const ayush = {
   role: "AI & Full-Stack Developer",
   education: "B.Tech CSE · 3rd Year · PSIT Kanpur",
-  location: "Kanpur, Uttar Pradesh, India 🇮🇳",
-  currentlyBuilding: "Multi-Agent Research System",
-  philosophy: "Ship > Perfect. Always.",
-  superpower: "Turning wild ideas into working products",
-  mission: "Build AI that solves real problems"
+  location: "Kanpur, India 🇮🇳",
+  building: "Multi-Agent Research System",
+  philosophy: "Ship > Perfect."
 };
