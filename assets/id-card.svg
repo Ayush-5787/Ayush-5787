@@ -30,7 +30,7 @@
   <text x="40" y="65" font-family="'Courier New', monospace" font-size="12" fill="#00ff88" letter-spacing="3" opacity="0.7">// DEVELOPER IDENTIFICATION</text>
   <text x="660" y="65" text-anchor="end" font-family="'Courier New', monospace" font-size="12" fill="#00ff88" letter-spacing="3" opacity="0.7">ID: 5787</text>
   <rect x="40" y="90" width="180" height="180" rx="10" fill="#0a1a10" stroke="#00ff88" stroke-width="2"/>
-  <image x="40" y="90" width="180" height="180" preserveAspectRatio="xMidYMid slice" clip-path="url(#photo-clip)" xlink:href="https://raw.githubusercontent.com/Ayush-5787/Ayush-5787/main/assets/profile.jpg"/>
+  <image x="40" y="90" width="180" height="180" preserveAspectRatio="xMidYMid meet" clip-path="url(#photo-clip)" xlink:href="https://raw.githubusercontent.com/Ayush-5787/Ayush-5787/main/assets/profile.jpg"/>
   <circle cx="205" cy="105" r="6" fill="#00ff88" filter="url(#card-glow)">
     <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
   </circle>
