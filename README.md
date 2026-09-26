@@ -1,22 +1,23 @@
 <div align="center">
 
-<!-- Auto-updated Heatmap -->
+# 👋 Hi, I'm Ayush Nandan
+
+> **AI & Full-Stack Developer** | Building Multi-Agent Systems  
+> 🎓 B.Tech CSE · PSIT Kanpur | 📍 Kanpur, India  
+
+---
+
+<!-- Contribution Heatmap -->
 <img src="./contrib-heatmap.svg" width="860" alt="Contribution Graph" />
 
-<br/><br/>
+<br/>
 
-<table>
-  <tr>
-    <!-- Left: ASCII Portrait (Generated locally once) -->
-    <td valign="top" align="center">
-      <img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" />
-    </td>
-    
-    <!-- Right: Info Card (Generated locally once) -->
-    <td valign="top" align="left">
-      <img src="./info-card.svg" width="490" alt="Info Card" />
-    </td>
-  </tr>
-</table>
+<!-- ASCII Portrait -->
+<img src="./avi-ascii.svg" width="400" alt="ASCII Art" />
+
+<br/>
+
+<!-- Info Card -->
+<img src="./info-card.svg" width="500" alt="Info Card" />
 
 </div>

@@ -2,44 +2,44 @@ name: Update Profile Assets
 
 on:
   schedule:
-    - cron: "0 6 * * *" # Runs every day at 06:00 UTC
-  workflow_dispatch: # Allows manual trigger from Actions tab
+    - cron: "0 6 * * *" # Runs daily at 6 AM UTC
+  workflow_dispatch: # Allows manual trigger
   push:
     branches: ["main"]
 
-permissions:
-  contents: write
-  metrics: read
-
 jobs:
-  generate-assets:
+  build:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write # Essential for pushing changes back
+      
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Metrics (Heatmap + Stats)
-        uses: lowlighter/metrics@latest
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          filename: contrib-heatmap.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: "" # Disable all plugins except what we enable below
-          plugin_isocalendar: yes # Adds the classic calendar heatmap
-          plugin_isocalendar_duration: full-year
-          
-      - name: Generate Trophy Case (Optional but cool)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: trophy-case.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_trophies: yes
-          plugin_trophies_grade: AAA
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4 pillow numpy opencv-python-headless rembg[cpu]
+
+      - name: Generate Assets
+        env:
+          GITHUB_USER: ${{ github.actor }}
+        run: |
+          python scripts/prep_photo.py source-photo.jpg
+          python scripts/make_ascii_svg.py
+          python scripts/make_info_card.py
+          python scripts/fetch_contributions.py
+          python scripts/render_heatmap_svg.py
 
       - name: Commit Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "chore: auto-update profile assets" || echo "No changes to commit"
-          git push origin main
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update assets"
+          git push
