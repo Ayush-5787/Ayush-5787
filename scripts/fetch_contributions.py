@@ -1,79 +1,93 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 import os
-import datetime
+from datetime import datetime, timedelta
 
 USERNAME = "Ayush-5787"
-URL = f"https://github.com/users/{USERNAME}/contributions"
+API_URL = "https://api.github.com/graphql"
+
+# Query to get contributions for the last 365 days
+QUERY = """
+query($login: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $login) {
+    contributionsCollection(from: $from, to: $to) {
+      contributionCalendar {
+        totalContributions
+        weeks {
+          contributionDays {
+            date
+            count
+            level
+          }
+        }
+      }
+    }
+  }
+}
+"""
 
 def fetch_data():
-    print(f"Fetching contributions for {USERNAME}...")
-    headers = {"User-Agent": "Mozilla/5.0"}
+    print(f"Fetching live data for {USERNAME} via GitHub API...")
+    
+    # Calculate date range: Today back to 365 days ago
+    today = datetime.utcnow()
+    start_date = today - timedelta(days=365)
+    
+    payload = {
+        "query": QUERY,
+        "variables": {
+            "login": USERNAME,
+            "from": start_date.isoformat(),
+            "to": today.isoformat()
+        }
+    }
+    
+    headers = {"Content-Type": "application/json"}
     
     try:
-        resp = requests.get(URL, headers=headers, timeout=10)
-        print(f"HTTP Status Code: {resp.status_code}")
+        resp = requests.post(API_URL, json=payload, headers=headers, timeout=10)
+        resp.raise_for_status()
         
-        if resp.status_code != 200:
-            print("❌ Failed to fetch data.")
+        data = resp.json()
+        
+        if "errors" in data:
+            print(f"❌ API Error: {data['errors']}")
             return False
             
-        soup = BeautifulSoup(resp.text, "html.parser")
+        collection = data["data"]["user"]["contributionsCollection"]
+        calendar = collection["contributionCalendar"]
         
-        # Try multiple selectors for robustness
-        cells = soup.select(".ContributionCalendar-day[data-date]")
-        if not cells:
-            cells = soup.select("[data-date]")
-            
-        if not cells:
-            print("⚠️ No contribution cells found. Saving empty data.")
-            output = {"days": [], "stats": {"total": 0}}
-            os.makedirs("data", exist_ok=True)
-            with open("data/contributions.json", "w") as f:
-                json.dump(output, f, indent=2)
-            return True
-
-        days = []
-        total_contributions = 0
+        total = calendar["totalContributions"]
+        weeks = calendar["weeks"]
         
-        for cell in cells:
-            date_str = cell.get("data-date")
-            label = cell.get("aria-label", "")
-            count = 0
-            if "contribution" in label.lower():
-                parts = label.split()
-                for p in parts:
-                    if p.isdigit():
-                        count = int(p)
-                        break
-            
-            level = 0
-            if count > 0: level = 1
-            if count >= 3: level = 2
-            if count >= 5: level = 3
-            if count >= 10: level = 4
-            
-            days.append({"date": date_str, "count": count, "level": level})
-            total_contributions += count
-
-        stats = {
-            "total": total_contributions,
-            "last_updated": datetime.datetime.now().isoformat()
+        # Flatten weeks into a list of days
+        days_list = []
+        for week in weeks:
+            for day in week["contributionDays"]:
+                days_list.append({
+                    "date": day["date"],
+                    "count": day["count"],
+                    "level": day["level"] # Level is already 0-4 from API!
+                })
+                
+        output = {
+            "days": days_list,
+            "stats": {
+                "total": total,
+                "last_updated": datetime.now().isoformat()
+            }
         }
-        
-        output = {"days": days, "stats": stats}
         
         os.makedirs("data", exist_ok=True)
         filepath = "data/contributions.json"
         with open(filepath, "w") as f:
             json.dump(output, f, indent=2)
             
-        print(f"✅ Successfully saved {filepath} ({total_contributions} contributions)")
+        print(f"✅ Success! Found {total} contributions.")
         return True
         
     except Exception as e:
-        print(f"❌ Error occurred: {e}")
+        print(f"❌ Failed to fetch data: {e}")
         return False
 
 if __name__ == "__main__":
