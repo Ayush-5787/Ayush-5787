@@ -2,7 +2,7 @@ name: Update Profile Assets
 
 on:
   schedule:
-    - cron: "0 6 * * *" # Runs daily at 6 AM UTC
+    - cron: "0 6 * * *" # Runs every day at 06:00 UTC
   workflow_dispatch: # Allows manual trigger
   push:
     branches: ["main"]
@@ -24,16 +24,16 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install requests beautifulsoup4 pillow numpy opencv-python-headless rembg[cpu]
+        run: pip install requests beautifulsoup4
 
-      - name: Generate Assets
+      - name: Fetch Contributions
         env:
-          GITHUB_USER: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/prep_photo.py source-photo.jpg
-          python scripts/make_ascii_svg.py
-          python scripts/make_info_card.py
           python scripts/fetch_contributions.py
+
+      - name: Render Heatmap
+        run: |
           python scripts/render_heatmap_svg.py
 
       - name: Commit Changes
@@ -41,5 +41,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update assets"
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update heatmap"
           git push
