@@ -5,21 +5,23 @@
 
 <br/><br/>
 
-<!-- MIDDLE ROW: ASCII ART & STREAK STATS SIDE-BY-SIDE -->
+<!-- MIDDLE ROW: STATS & STREAKS SIDE-BY-SIDE -->
 <table>
   <tr>
-    <!-- LEFT: YOUR COOL ASCII PORTRAIT -->
+    <!-- LEFT: GITHUB STATS CARD (With Big Logo) -->
     <td valign="top" align="center" width="50%">
-      <img src="./avi-ascii.svg" width="100%" alt="Ayush Nandan ASCII Portrait" />
+      <img 
+        src="https://github-readme-stats.vercel.app/api?username=Ayush-5787&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" 
+        alt="Ayush's GitHub Stats" 
+      />
     </td>
     
-    <!-- RIGHT: RELIABLE STREAK STATS (No more broken images!) -->
+    <!-- RIGHT: STREAK STATS CARD (Already Working) -->
     <td valign="top" align="center" width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-5787&theme=radical&hide_border=true" alt="Ayush's Streak Stats" />
-      
-      <!-- ADDITIONAL STATS CARD BELOW STREAK -->
-      <br/>
-      <img src="https://github-profile-trophy.vercel.app/?username=Ayush-5787&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Trophies" />
+      <img 
+        src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-5787&theme=radical&hide_border=true" 
+        alt="Ayush's Streak Stats" 
+      />
     </td>
   </tr>
 </table>
