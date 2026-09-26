@@ -8,15 +8,15 @@
 <!-- MIDDLE ROW: STATS & STREAKS SIDE-BY-SIDE -->
 <table>
   <tr>
-    <!-- LEFT: GITHUB STATS CARD (With Big Logo) -->
+    <!-- LEFT: GITHUB STATS CARD (Fixed with Deno Mirror) -->
     <td valign="top" align="center" width="50%">
       <img 
-        src="https://github-readme-stats.vercel.app/api?username=Ayush-5787&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" 
+        src="https://github-readme-stats-deno.vercel.app/api?username=Ayush-5787&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" 
         alt="Ayush's GitHub Stats" 
       />
     </td>
     
-    <!-- RIGHT: STREAK STATS CARD (Restored!) -->
+    <!-- RIGHT: STREAK STATS CARD (Working Perfectly) -->
     <td valign="top" align="center" width="50%">
       <img 
         src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-5787&theme=radical&hide_border=true" 
