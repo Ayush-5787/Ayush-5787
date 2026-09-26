@@ -1,16 +1,23 @@
-<br/>
+<div align="center">
 
-<!-- LIVE STATS (Reliable Shields.io Badges) -->
+<!-- TOP: CONTRIBUTION HEATMAP -->
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution Graph" />
+
+<br/><br/>
+
+<!-- MIDDLE ROW: PORTRAIT & INFO CARD SIDE-BY-SIDE -->
 <table>
-<tr>
-<td align="center" width="49%">
-    <img src="https://img.shields.io/github/stars/Ayush-5787?style=social&label=Stars" alt="GitHub Stars"/>
-    <br/>
-    <img src="https://img.shields.io/github/followers/Ayush-5787?style=social&label=Followers" alt="GitHub Followers"/>
-</td>
-<td align="center" width="49%">
-    <!-- Contribution Streak via Heroku App (Usually works better than Vercel) -->
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-5787&theme=dark&hide_border=true" alt="Streak Stats"/>
-</td>
-</tr>
+  <tr>
+    <!-- LEFT: ASCII ART -->
+    <td valign="top" align="center" width="50%">
+      <img src="./avi-ascii.svg" width="100%" alt="Ayush Nandan ASCII Portrait" />
+    </td>
+    
+    <!-- RIGHT: INFO CARD -->
+    <td valign="top" align="left" width="50%">
+      <img src="./info-card.svg" width="100%" alt="Developer Info Card" />
+    </td>
+  </tr>
 </table>
+
+</div>
