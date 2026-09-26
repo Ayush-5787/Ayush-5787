@@ -16,7 +16,7 @@
       />
     </td>
     
-    <!-- RIGHT: STREAK STATS CARD (Already Working) -->
+    <!-- RIGHT: STREAK STATS CARD (Restored!) -->
     <td valign="top" align="center" width="50%">
       <img 
         src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-5787&theme=radical&hide_border=true" 
