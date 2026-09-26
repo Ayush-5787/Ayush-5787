@@ -1,4 +1,4 @@
-name: Profile Summary
+name: Update Profile Assets
 
 on:
   schedule:
@@ -8,28 +8,47 @@ on:
     branches: ["main"]
 
 jobs:
-  summary:
+  build:
     runs-on: ubuntu-latest
+    
     permissions:
-      contents: write # Required to update SVGs
+      contents: write # Essential for pushing changes back
       
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate Metrics (Heatmap)
-        uses: lowlighter/metrics@latest
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          filename: contrib-heatmap.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: "" # Disable default plugins
-          plugin_isocalendar: yes # Enables the contribution calendar
-          plugin_isocalendar_duration: full-year
-          
+          python-version: '3.x'
+
+      - name: Install ALL Dependencies
+        # This line fixes the crash! It installs math/image libs too.
+        run: pip install requests beautifulsoup4 numpy pillow opencv-python-headless
+
+      - name: Fetch Contributions Data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/fetch_contributions.py
+
+      - name: Render Heatmap SVG
+        run: |
+          python scripts/render_heatmap_svg.py
+
       - name: Commit Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add contrib-heatmap.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update heatmap"
-          git push origin main
+          
+          # Add specific files to avoid committing junk
+          git add contrib-heatmap.svg data/contributions.json
+          
+          # Check if there are actual changes before committing
+          if [[ $(git diff --cached) ]]; then
+            git commit -m "chore: auto-update heatmap via API"
+            git push origin main
+          else
+            echo "No changes detected."
+          fi
