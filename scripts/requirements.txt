@@ -1,6 +1,9 @@
+# Needed by the daily GitHub Actions workflow (heatmap refresh)
 requests==2.32.3
 beautifulsoup4==4.12.3
+
+# Needed only when you regenerate the portrait locally (not used by the cron)
 pillow
 numpy
-opencv-python
+opencv-python-headless
 rembg

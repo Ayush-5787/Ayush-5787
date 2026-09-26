@@ -1,54 +1,29 @@
-name: Update Profile Assets
+name: Update profile art
 
-on:
+"on":
   schedule:
-    - cron: "0 6 * * *" # Runs daily at 6 AM UTC
-  workflow_dispatch: # Allows manual trigger from Actions tab
+    - cron: "17 6 * * *"   # ~06:17 UTC daily
+  workflow_dispatch: {}
   push:
-    branches: ["main"]
+    branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  heatmap:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write # Essential for pushing changes back
-      
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-
-      - name: Install ALL Dependencies
-        # This line fixes the crash! It installs math/image libs too.
-        run: pip install requests beautifulsoup4 numpy pillow opencv-python-headless
-
-      - name: Fetch Contributions Data
+          python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/fetch_contributions.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/fetch_contributions.py
-
-      - name: Render Heatmap SVG
-        run: |
-          python scripts/render_heatmap_svg.py
-
-      - name: Commit Changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Add specific files to avoid committing junk
-          git add contrib-heatmap.svg data/contributions.json
-          
-          # Check if there are actual changes before committing
-          if [[ $(git diff --cached) ]]; then
-            git commit -m "chore: auto-update heatmap via API"
-            git push origin main
-          else
-            echo "No changes detected."
-          fi
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+      - run: python scripts/render_heatmap_svg.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"
