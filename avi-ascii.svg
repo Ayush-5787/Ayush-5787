@@ -11,7 +11,7 @@
   </clipPath>
   <g clip-path="url(#wipe2)">
     <text x="10" y="31.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                               :-:::+:                                              </text>
+          fill="#c9d1d9" xml:space="preserve">                                              `=+===c=                                              </text>
     <rect x="10" y="23.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -30,7 +30,7 @@
   </clipPath>
   <g clip-path="url(#wipe3)">
     <text x="10" y="40.2" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                             :cs*=+c%c:.                                            </text>
+          fill="#c9d1d9" xml:space="preserve">                                             +s#c**s%#=:                                           .</text>
     <rect x="10" y="32.2" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -49,7 +49,7 @@
   </clipPath>
   <g clip-path="url(#wipe4)">
     <text x="10" y="48.6" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                            =#sc*-=*cc+*`                                           </text>
+          fill="#c9d1d9" xml:space="preserve">                                            *%#sc**ss#cc=                                           </text>
     <rect x="10" y="40.6" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -68,7 +68,7 @@
   </clipPath>
   <g clip-path="url(#wipe5)">
     <text x="10" y="57.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                           .###ss+-*cc+*-                                           </text>
+          fill="#c9d1d9" xml:space="preserve">                                           `%%###c+css*s+                                           </text>
     <rect x="10" y="49.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -87,7 +87,7 @@
   </clipPath>
   <g clip-path="url(#wipe6)">
     <text x="10" y="65.4" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                           .#%cc*:--=**+.                                           </text>
+          fill="#c9d1d9" xml:space="preserve">                                           :%%##s=***scc:                                           </text>
     <rect x="10" y="57.400000000000006" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -106,7 +106,7 @@
   </clipPath>
   <g clip-path="url(#wipe7)">
     <text x="10" y="73.80000000000001" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                            cs===.`-`:+:                                            </text>
+          fill="#c9d1d9" xml:space="preserve">                                            s#***:=+-=c+                                            </text>
     <rect x="10" y="65.80000000000001" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -125,7 +125,7 @@
   </clipPath>
   <g clip-path="url(#wipe8)">
     <text x="10" y="82.2" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                            =c``-```..-`                                            </text>
+          fill="#c9d1d9" xml:space="preserve">                                            *s--+=----+-                                            </text>
     <rect x="10" y="74.2" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -144,7 +144,7 @@
   </clipPath>
   <g clip-path="url(#wipe9)">
     <text x="10" y="90.60000000000001" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                            :c:-*-::``:.                                            </text>
+          fill="#c9d1d9" xml:space="preserve">                                            +s=+c+==--=:                                            </text>
     <rect x="10" y="82.60000000000001" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -163,7 +163,7 @@
   </clipPath>
   <g clip-path="url(#wipe10)">
     <text x="10" y="99.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                            .c+--:``.-:                                             </text>
+          fill="#c9d1d9" xml:space="preserve">                                            :#c++=--:+=.                                            </text>
     <rect x="10" y="91.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -182,7 +182,7 @@
   </clipPath>
   <g clip-path="url(#wipe11)">
     <text x="10" y="107.4" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                             -s+-:`:-=                                              </text>
+          fill="#c9d1d9" xml:space="preserve">                                             +#c+=-=+*`                                             </text>
     <rect x="10" y="99.4" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -201,7 +201,7 @@
   </clipPath>
   <g clip-path="url(#wipe12)">
     <text x="10" y="115.80000000000001" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                             -#sss**-`                                              </text>
+          fill="#c9d1d9" xml:space="preserve">                                             +####sc+-                                              </text>
     <rect x="10" y="107.80000000000001" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -220,7 +220,7 @@
   </clipPath>
   <g clip-path="url(#wipe13)">
     <text x="10" y="124.2" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                            -##=+=:` =:                                             </text>
+          fill="#c9d1d9" xml:space="preserve">                                           .+%%*c*=-`*=                                             </text>
     <rect x="10" y="116.2" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -239,7 +239,7 @@
   </clipPath>
   <g clip-path="url(#wipe14)">
     <text x="10" y="132.60000000000002" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                        ..`*#%#=-:. `+*=:.                                          </text>
+          fill="#c9d1d9" xml:space="preserve">                                       .`:-c%%%*+=:`-cc*+-`                                         </text>
     <rect x="10" y="124.60000000000002" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -258,7 +258,7 @@
   </clipPath>
   <g clip-path="url(#wipe15)">
     <text x="10" y="141.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                      `++*s%csc=``.`**++**+-:`.                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                      -ccc#%s#s*--:-ssccccc+=-:`.                                   </text>
     <rect x="10" y="133.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -277,7 +277,7 @@
   </clipPath>
   <g clip-path="url(#wipe16)">
     <text x="10" y="149.4" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                     :=+++s%=sc . .+*+**+c**++==-                                   </text>
+          fill="#c9d1d9" xml:space="preserve">                                    .=*ccc#%*##```:cccsccssccc**+`                                  </text>
     <rect x="10" y="141.4" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -296,7 +296,7 @@
   </clipPath>
   <g clip-path="url(#wipe17)">
     <text x="10" y="157.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                    :****=cs-ss:  `+=+c*+c+**+=*-                                   </text>
+          fill="#c9d1d9" xml:space="preserve">                                    =scss*s#+##=.`=c*csscscccc*c+`                                  </text>
     <rect x="10" y="149.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -315,7 +315,7 @@
   </clipPath>
   <g clip-path="url(#wipe18)">
     <text x="10" y="166.20000000000002" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                    -*ccc+#+-c##- cc=+c++*=*c=+*-.                                  </text>
+          fill="#c9d1d9" xml:space="preserve">                                    +ssssc%c+s%%+.#s*csc*s*cs*cc+:                                  </text>
     <rect x="10" y="158.20000000000002" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -334,7 +334,7 @@
   </clipPath>
   <g clip-path="url(#wipe19)">
     <text x="10" y="174.6" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                    +ccscs#-=++*s-#*-**+++=+s+c+=:                                  </text>
+          fill="#c9d1d9" xml:space="preserve">                                    css#s#%+*ccs#+#s*csccc*c#csc*=                                  </text>
     <rect x="10" y="166.6" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -353,7 +353,7 @@
   </clipPath>
   <g clip-path="url(#wipe20)">
     <text x="10" y="183.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                    *ss#c#c--c*-*=#+-+*+=-=+c*s+=-                                  </text>
+          fill="#c9d1d9" xml:space="preserve">                                    s##%s%s+*ss*s*#c+csc*+*css#c*+.                                 </text>
     <rect x="10" y="175.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -372,7 +372,7 @@
   </clipPath>
   <g clip-path="url(#wipe21)">
     <text x="10" y="191.4" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                   .ss##s%+--+*=--#+:+*=+c=+*cc*+=.                                 </text>
+          fill="#c9d1d9" xml:space="preserve">                                   :###%#%c++cs**+#c=cc*cs*cc#scc*:                                 </text>
     <rect x="10" y="183.4" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -391,7 +391,7 @@
   </clipPath>
   <g clip-path="url(#wipe22)">
     <text x="10" y="199.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                   -#s%#s#=--++*::s*:+*++++=+*c*+=:                                 </text>
+          fill="#c9d1d9" xml:space="preserve">                                   *%#%%#%*++ccc=+#c+cscccc*csss**=.                                </text>
     <rect x="10" y="191.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -410,7 +410,7 @@
   </clipPath>
   <g clip-path="url(#wipe23)">
     <text x="10" y="208.20000000000002" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                   =##%##c-:==+*-=cc-+*=++++=cs*+-+`                                </text>
+          fill="#c9d1d9" xml:space="preserve">                                   *%#%%%#++**cc+*ss+cs*cccc*s#sc+c-                                </text>
     <rect x="10" y="200.20000000000002" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -429,7 +429,7 @@
   </clipPath>
   <g clip-path="url(#wipe24)">
     <text x="10" y="216.60000000000002" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                   *##%##*--+-s==-*c:**==+++=ss*==+:                                </text>
+          fill="#c9d1d9" xml:space="preserve">                                   c%#%#%s++c+#***cs+cs**ccc*##s**c=                                </text>
     <rect x="10" y="208.60000000000002" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -448,7 +448,7 @@
   </clipPath>
   <g clip-path="url(#wipe25)">
     <text x="10" y="225.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  .s##%##=-==+s:+++c:**-:=++=##cc+=:                                </text>
+          fill="#c9d1d9" xml:space="preserve">                                  `##%%##*+**c#=cccs=cs*+*cc*%#ssc*=                                </text>
     <rect x="10" y="217.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -467,7 +467,7 @@
   </clipPath>
   <g clip-path="url(#wipe26)">
     <text x="10" y="233.4" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  :##%##c--==s*:==+c:+c-:-=-+%#c*+==.                               </text>
+          fill="#c9d1d9" xml:space="preserve">                                  =%%%%#s++**#s=**cs=cs+=+*+*%#ssc**:                               </text>
     <rect x="10" y="225.4" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -486,7 +486,7 @@
   </clipPath>
   <g clip-path="url(#wipe27)">
     <text x="10" y="241.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  =##%#s=---+%+==:-s:=c=:-==+#%#scc*:                               </text>
+          fill="#c9d1d9" xml:space="preserve">                                  *%%%%#*+++c%c**=+#=*s*++**c%%%##ss=                               </text>
     <rect x="10" y="233.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -505,7 +505,7 @@
   </clipPath>
   <g clip-path="url(#wipe28)">
     <text x="10" y="250.20000000000002" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  +##%%c---=c#**=-:s-:*+-----*%#s*==`                               </text>
+          fill="#c9d1d9" xml:space="preserve">                                  c%%%%s+++*s#sc*+=#*=cc+++*+s%%#s**-                               </text>
     <rect x="10" y="242.20000000000002" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -524,7 +524,7 @@
   </clipPath>
   <g clip-path="url(#wipe29)">
     <text x="10" y="258.6" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  =##%%+=-=*scc+=+:c*:++=----*%sc+-:.                               </text>
+          fill="#c9d1d9" xml:space="preserve">                                  *%%%%c*+*s#ssc*c=ss=cc*++*+c%#sc*+`                               </text>
     <rect x="10" y="250.60000000000002" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -543,7 +543,7 @@
   </clipPath>
   <g clip-path="url(#wipe30)">
     <text x="10" y="267.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  =##%s=-+*+cc*=:--+s:====---c%s*+-:                                </text>
+          fill="#c9d1d9" xml:space="preserve">                                  *%%%#**ccc#ss*=++c#=****+++s%#sc*=.                               </text>
     <rect x="10" y="259.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -562,7 +562,7 @@
   </clipPath>
   <g clip-path="url(#wipe31)">
     <text x="10" y="275.40000000000003" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  -##%c==#c==*++:`-*%-:====--s#c*==`                                </text>
+          fill="#c9d1d9" xml:space="preserve">                                  +%%%s**%s**scc=-+c%++****++##sc**-                                </text>
     <rect x="10" y="267.40000000000003" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -581,7 +581,7 @@
   </clipPath>
   <g clip-path="url(#wipe32)">
     <text x="10" y="283.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                  `###*=*@%c=*+*::-*%c:---=--%#*==-.                                </text>
+          fill="#c9d1d9" xml:space="preserve">                                  -#%#s*c@%#*ccc==+s%s=+++*++%#c**+:                                </text>
     <rect x="10" y="275.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -600,7 +600,7 @@
   </clipPath>
   <g clip-path="url(#wipe33)">
     <text x="10" y="292.2" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                   *%#c*sss#s**c:::=#%-:+=--=c-`:--.                                </text>
+          fill="#c9d1d9" xml:space="preserve">                                  .s%#sc###%#sss===*%%++c*++*#+-=++:                                </text>
     <rect x="10" y="284.2" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -619,7 +619,7 @@
   </clipPath>
   <g clip-path="url(#wipe34)">
     <text x="10" y="300.6" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                   `###ss#**c*=+=`:-s%s:-=--cc-`..:                                 </text>
+          fill="#c9d1d9" xml:space="preserve">                                   -##%##%scss*c*-++#%#=**++ss+=:`=.                                </text>
     <rect x="10" y="292.6" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -638,7 +638,7 @@
   </clipPath>
   <g clip-path="url(#wipe35)">
     <text x="10" y="309.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                    *#*=####s##s++c=c#%*`--=*c=:-:                                  </text>
+          fill="#c9d1d9" xml:space="preserve">                                    s%s*#%%##%##ccs*s#%s-*+*ss*=+=.                                 </text>
     <rect x="10" y="301.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -657,7 +657,7 @@
   </clipPath>
   <g clip-path="url(#wipe36)">
     <text x="10" y="317.40000000000003" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                    :s.-+css#ssc*=*cs##%*:-=++=::                                   </text>
+          fill="#c9d1d9" xml:space="preserve">                                    =#:+cs#####ss*cs##%%c=+*cc*==`                                  </text>
     <rect x="10" y="309.40000000000003" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -676,7 +676,7 @@
   </clipPath>
   <g clip-path="url(#wipe37)">
     <text x="10" y="325.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                     `=*-=++*cc+=:`=sss#%c=-===-`                                   </text>
+          fill="#c9d1d9" xml:space="preserve">                                     =*c+*cccs#**=-*###%%s*+***+-                                   </text>
     <rect x="10" y="317.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -695,7 +695,7 @@
   </clipPath>
   <g clip-path="url(#wipe38)">
     <text x="10" y="334.2" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                      :s==+=::+cc-==+sss#%#*=--`                                    </text>
+          fill="#c9d1d9" xml:space="preserve">                                      =#**c*+=css***c####%%s**+-.                                   </text>
     <rect x="10" y="326.2" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -714,7 +714,7 @@
   </clipPath>
   <g clip-path="url(#wipe39)">
     <text x="10" y="342.6" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                       +c=+++=-=s--=-*sss#sss=`                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                       cs*ccc*+*#++**s#######*=                                     </text>
     <rect x="10" y="334.6" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -733,7 +733,7 @@
   </clipPath>
   <g clip-path="url(#wipe40)">
     <text x="10" y="351.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                       .s+-==**+c+=+++*ss#s#%*.                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                       :#c***cscsc*cccs#####%c:                                     </text>
     <rect x="10" y="343.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -752,7 +752,7 @@
   </clipPath>
   <g clip-path="url(#wipe41)">
     <text x="10" y="359.40000000000003" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                        -s+++==c#sc**++++*s*-:                                      </text>
+          fill="#c9d1d9" xml:space="preserve">                                        +#ccc**s%#sscccccs#s+=`                                     </text>
     <rect x="10" y="351.40000000000003" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -771,7 +771,7 @@
   </clipPath>
   <g clip-path="url(#wipe42)">
     <text x="10" y="367.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         cc+++++c%%#ssc*+-=-``                                      </text>
+          fill="#c9d1d9" xml:space="preserve">                                        `#scccc*s%%###ssc+*+=-.                                     </text>
     <rect x="10" y="359.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -790,7 +790,7 @@
   </clipPath>
   <g clip-path="url(#wipe43)">
     <text x="10" y="376.2" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         +s*++=-:c%#s*+*+--::`                                      </text>
+          fill="#c9d1d9" xml:space="preserve">                                         c#sc**+=s%%#scsc*++=-.                                     </text>
     <rect x="10" y="368.2" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -809,7 +809,7 @@
   </clipPath>
   <g clip-path="url(#wipe44)">
     <text x="10" y="384.6" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         -#c*+=--=%%sc**+=--::                                      </text>
+          fill="#c9d1d9" xml:space="preserve">                                         +#scc**+*%%#sccc*++==`                                     </text>
     <rect x="10" y="376.6" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -828,7 +828,7 @@
   </clipPath>
   <g clip-path="url(#wipe45)">
     <text x="10" y="393.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         :#c*++=--%#ss*c*---::.                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         =##cc**++%%##sss*++==`                                     </text>
     <rect x="10" y="385.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -847,7 +847,7 @@
   </clipPath>
   <g clip-path="url(#wipe46)">
     <text x="10" y="401.40000000000003" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         `#s*++=-=@**#**c=----.                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         -##cc**+*@cs#sss*++++:                                     </text>
     <rect x="10" y="393.40000000000003" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -866,7 +866,7 @@
   </clipPath>
   <g clip-path="url(#wipe47)">
     <text x="10" y="409.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         `s#c*+=-=@+-#c**+=---`                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         -##scc*+*@*+%scsc*+++-                                     </text>
     <rect x="10" y="401.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -885,7 +885,7 @@
   </clipPath>
   <g clip-path="url(#wipe48)">
     <text x="10" y="418.20000000000005" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         .s#c**=-=%=.sc*+===--`                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         -##scc*+*%*`##sc***++-                                     </text>
     <rect x="10" y="410.20000000000005" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -904,7 +904,7 @@
   </clipPath>
   <g clip-path="url(#wipe49)">
     <text x="10" y="426.6" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                         .s#s**+-+%= +s**++=--`                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         `#%#cc*+c%* c#sscc*++-                                     </text>
     <rect x="10" y="418.6" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -923,7 +923,7 @@
   </clipPath>
   <g clip-path="url(#wipe50)">
     <text x="10" y="435.0" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                          s#s**+-+@= `sc*++=--:                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         .#%#ssc+c@* -#sscc*++=                                     </text>
     <rect x="10" y="427.0" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -942,7 +942,7 @@
   </clipPath>
   <g clip-path="url(#wipe51)">
     <text x="10" y="443.40000000000003" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                          c#s**+-*@=  csc*+==-:                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         .s%#ssc+c@* .s#scc***=                                     </text>
     <rect x="10" y="435.40000000000003" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"
@@ -961,7 +961,7 @@
   </clipPath>
   <g clip-path="url(#wipe52)">
     <text x="10" y="451.8" font-family="monospace" font-size="8px"
-          fill="#c9d1d9" xml:space="preserve">                                          *%#c*+-*@=  =#c*+===:                                     </text>
+          fill="#c9d1d9" xml:space="preserve">                                         .s%#ssc+s@*  *%ssc***=                                     </text>
     <rect x="10" y="443.8" width="5.28" height="9.2"
           fill="#c9d1d9">
       <animate attributeName="x" from="10" to="490.0"

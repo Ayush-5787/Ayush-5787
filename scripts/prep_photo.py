@@ -57,9 +57,21 @@ def prep_photo(src_path: str, out_path: str = "source-prepped.png") -> None:
     print("Removing background...")
     subject_rgba = remove_background(raw)
 
+    print("Cropping to subject bounding box...")
+    bbox = subject_rgba.getbbox()
+    if bbox:
+        left, top, right, bottom = bbox
+        w, h = subject_rgba.size
+        pad_x = int((right - left) * 0.06)
+        pad_y = int((bottom - top) * 0.06)
+        left = max(0, left - pad_x)
+        top = max(0, top - pad_y)
+        right = min(w, right + pad_x)
+        bottom = min(h, bottom + pad_y)
+        subject_rgba = subject_rgba.crop((left, top, right, bottom))
+
     print("Compositing onto white...")
     on_white = composite_on_white(subject_rgba)
-
     print("Boosting local contrast (CLAHE)...")
     gray = cv2.cvtColor(np.array(on_white), cv2.COLOR_RGB2GRAY)
     contrasted = apply_clahe(gray)

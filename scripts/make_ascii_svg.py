@@ -45,8 +45,9 @@ def image_to_grid(img_path: str, cols: int = COLS, rows: int = ROWS) -> list[str
         row_chars = []
         for x in range(cols):
             brightness = small.getpixel((x, y))  # 0 (black) - 255 (white)
-            # invert: bright -> low ramp index (sparse), dark -> high index (dense)
-            idx = int((255 - brightness) / 255 * (len(RAMP) - 1))
+            # invert + push midtones toward denser glyphs for a bolder, darker look
+            darkness = ((255 - brightness) / 255) ** 0.6
+            idx = int(darkness * (len(RAMP) - 1))
             row_chars.append(RAMP[idx])
         lines.append("".join(row_chars))
     return lines
