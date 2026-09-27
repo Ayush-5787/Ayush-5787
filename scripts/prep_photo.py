@@ -24,9 +24,10 @@ from PIL import Image
 
 def remove_background(raw_bytes: bytes) -> Image.Image:
     """Return an RGBA PIL image with the background removed via rembg."""
-    from rembg import remove  # imported lazily: heavy, portrait-only dependency
+    from rembg import remove, new_session  # imported lazily: heavy, portrait-only dependency
 
-    result = remove(raw_bytes)
+    session = new_session("u2net")  # lighter model than the new default
+    result = remove(raw_bytes, session=session)
     return Image.open(io.BytesIO(result)).convert("RGBA")
 
 
